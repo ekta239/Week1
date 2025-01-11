@@ -4,7 +4,7 @@ import java.util.Scanner;
  * This class takes an integer input from the user, 
  * reverses its digits and prints them in reverse order.
  */
-public class arrayReverse {
+public class ArrayReverse {
     public static void main(String[] args) {
         // Take user input for a number
         Scanner scanner = new Scanner(System.in);
