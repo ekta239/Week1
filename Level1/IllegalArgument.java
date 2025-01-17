@@ -4,11 +4,8 @@ import java.util.Scanner;
  * This class demonstrates the handling of IllegalArgumentException and RuntimeException.
  */
 public class IllegalArgument {
-    /**
-     * Main method to call other methods.
-     * 
-     * @param args Command line arguments.
-     */
+    // Main method to call other methods.
+
     public static void main(String[] args) {
         // Call method to generate an exception
         generateException();

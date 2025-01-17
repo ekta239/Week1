@@ -20,12 +20,12 @@ public class Substr{
         boolean r = true;
         
         // Use a labeled loop to break out of the loop when a mismatch is found
-        check:
+
         for (int i = 0; i < s1.length(); i++) {
             // If a mismatch is found, set the result to false and break out of the loop
             if (s1.charAt(i) != s2.charAt(i)) {
                 r = false;
-                break check;
+                break;
             }
         }
         

@@ -1,4 +1,21 @@
 public class Strcompare{
+    
+    // Custom method to compare two strings character by character
+    public static boolean compare(String s1, String s2){
+        // Initialize a flag to true, assuming strings are equal
+        boolean r = true;
+        
+        // Use a labeled loop to compare characters
+        for (int i = 0; i < s1.length(); i++){
+            // If characters at the same position are different, set flag to false and break the loop
+            if (s1.charAt(i) != s2.charAt(i)){ 
+                r = false;
+                break;
+            }
+        }
+        // Return the comparison result
+        return r;
+    }
     // Main method to get user input and compare strings
     public static void main(String[]args){
         // Create a new Scanner object to read user input
@@ -15,21 +32,4 @@ public class Strcompare{
         System.out.println("Comparison result using equal() method: " + s1.equals(s2));
     }
 
-    // Custom method to compare two strings character by character
-    public static boolean compare(String s1, String s2){
-        // Initialize a flag to true, assuming strings are equal
-        boolean r = true;
-        
-        // Use a labeled loop to compare characters
-        check:
-        for (int i = 0; i < s1.length(); i++){
-            // If characters at the same position are different, set flag to false and break the loop
-            if (s1.charAt(i) != s2.charAt(i)){ 
-                r = false;
-                break check;
-            }
-        }
-        // Return the comparison result
-        return r;
-    }
 }

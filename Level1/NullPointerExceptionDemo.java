@@ -1,9 +1,6 @@
     public class NullPointerExceptionDemo {
-        /**
-         * Main method to demonstrate NullPointerException handling.
-         * 
-         * @param args Command line arguments.
-         */
+        //  Main method to demonstrate NullPointerException handling.
+         
         public static void main(String[] args) {
             // Generate a NullPointerException
             generateNullPointerException();

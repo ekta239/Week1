@@ -1,4 +1,4 @@
-public class arrayindexoutofbound {
+public class Arrayindexoutofbound {
     // Main method to test ArrayIndexOutOfBoundsException
     public static void main(String[] args) {
         // Generate and handle ArrayIndexOutOfBoundsException
